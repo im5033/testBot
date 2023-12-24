@@ -2,6 +2,7 @@ from flask import Flask, request, abort
 import discord
 from discord.ext import commands
 import asyncio
+import os
 
 app = Flask(__name__)
 
