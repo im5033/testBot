@@ -80,4 +80,4 @@ async def on_voice_state_update(member, before, after):
 if __name__ == "__main__":
     app.run()
     # 在這裡使用你的 bot token
-    bot.run('OTgxOTQ0NzQyMzc4MDk0NjIy.G8q_7Y.Onpq8auK5YQir7ObElXleHhfuF3XxZ7yvVIMG0')
+    bot.run(os.getenv("TOKEN"))
